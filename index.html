@@ -7,6 +7,7 @@
     <title>Online Education</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/befe806904.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -39,7 +40,7 @@
                   <a class="nav-link fw-bold">Success</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-bold"><button class="btn btn-outline-warning">Register</button></a>
+                  <a class="nav-link fw-bold"><button class="btn btn-outline-warning">Sign In</button></a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -211,8 +212,7 @@
       <div class="text-center pb-4 mt-5 mb-5">
         <button class="btn btn-outline-warning text-dark">See More Courses</button>
       </div>
-      
-    </section>
+</section>
 
     <section>
       <div class="container d-flex justify-content-center">
@@ -244,7 +244,34 @@
           <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptas.</p>
         </div>
         <div class="col col-md-5 justify-content-center align-item-center pt-4">
-          <button class="btn btn-outline-warning">Register Now</button>
+    <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </button>
         </div>
        </div>
      </div>
@@ -304,7 +331,7 @@
       <div class="container">
         <h2 class="text-center text-warning">Some Students Feedback</h2>
         <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        <section class="">
+        <section>
           <div class="container py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
               <div class="col col-lg-10 col-xl-8">
@@ -417,6 +444,22 @@
             </div>
           </div>
         </section>
+        <section class=" bg-dark p-5">
+          
+          
+            <h2 class="text-warning text-center">Online Education(<span class="text-light">OE</span>)</h2>
+            <p class="text-center text-light">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</p>
+            <p class="text-center text-light">Privacy Ploicy  |   Terms of use</p>
+          <div class="social-icon text-center">
+           <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a> 
+           <a href=""><i class="fa-brands fa-youtube fa-2x"></i></a> 
+           <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+            <a href=""><i class=" fa-brands fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
+        
+       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
